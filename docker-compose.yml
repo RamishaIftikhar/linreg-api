@@ -1,6 +1,6 @@
 services:
   api:
-    image: DOCKERHUB_USERNAME/linreg-api:v1
+    image: ramishaiftikhar/linreg-api:v1
     container_name: linreg-api
     ports:
       - "5000:5000"
